@@ -1,6 +1,6 @@
 # terraform-provider-spotify
 
-A Spotify provider for Terraform.
+A (very very experimental) Spotify provider for Terraform.
 
 ## What can it do?
 
