@@ -11,8 +11,7 @@ provider "spotify" {
 }
 
 data "spotify_track" "mmmbop" {
-  name = "MMMBop"
-  #id = "0lnxrQAd9ZxbhBBe7d8FO8"
+  id = "0lnxrQAd9ZxbhBBe7d8FO8"
 }
 
 data "spotify_track" "mmmbop_single_version" {
@@ -37,8 +36,8 @@ resource "spotify_playlist" "mmmbop" {
   name = "Nothing but MMMBop"
   track_ids = [
     data.spotify_track.mmmbop.id,
-    data.spotify_track.scary_pockets_mmmbop.id,
     data.spotify_track.mmmbop_single_version.id,
+    data.spotify_track.scary_pockets_mmmbop.id,
     data.spotify_track.vsq_mmmbop.id,
   ]
 }
