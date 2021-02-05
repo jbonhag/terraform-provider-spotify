@@ -1,6 +1,6 @@
 # terraform-provider-spotify
 
-A Spotify provider for Terraform.
+A (very very experimental) Spotify provider for Terraform.
 
 ## What can it do?
 
@@ -15,6 +15,7 @@ A Spotify provider for Terraform.
 ## What can't it do?
 
 - Add/remove tracks from your user library
+- Delete playlists -- this is not supported by the Spotify Web API
 
 ## What could be better?
 
